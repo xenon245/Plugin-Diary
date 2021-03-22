@@ -1,0 +1,13 @@
+main: com.github.monulo.diary.PluginDiary
+version: 1.0
+name: Plugin-Diary
+api-version: 1.16
+depend: [Kotlin, ProtocolLib]
+commands:
+  game:
+    description: "game start command"
+    permission: game.start
+permissions:
+  game.start:
+    default: op
+    description: "permission to start game"
